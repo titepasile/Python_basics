@@ -34,4 +34,16 @@ for i in range(1, 101):
         print("Buzz")
     else:
         print(i)
-    
+
+#--------------------------------------------------------------------------------------------------------
+#Speech generation
+# Define the names of digits from 0 to 9
+digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+
+# Read input as a string to keep leading zeros and allow iteration
+number = input()
+
+# Loop through each character (digit) in the input string
+for char in number:
+    # Convert the character to integer and use it as index
+    print(digits[int(char)])
