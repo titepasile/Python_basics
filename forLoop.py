@@ -25,15 +25,13 @@ print(mean)
 #Fizz Buzz
 #
 
-numbers = range(1, 100)
-
-for number in  numbers:
-    if number % 3 == 0:
-        print("Fizz")
-    if number % 5 == 0:
-        print("Buzz")
-    if number % 3 == 0 and number % 5 == 0:
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
     else:
-        print(number)
+        print(i)
     
