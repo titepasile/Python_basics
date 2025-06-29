@@ -22,4 +22,18 @@ mean = total / count
 print(mean) 
 
 #--------------------------------------------------------------------------------------------------------
+#Fizz Buzz
+#
 
+numbers = range(1, 100)
+
+for number in  numbers:
+    if number % 3 == 0:
+        print("Fizz")
+    if number % 5 == 0:
+        print("Buzz")
+    if number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    else:
+        print(number)
+    
