@@ -37,13 +37,28 @@ for i in range(1, 101):
 
 #--------------------------------------------------------------------------------------------------------
 #Speech generation
-# Define the names of digits from 0 to 9
-digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+phone_number = input()
 
-# Read input as a string to keep leading zeros and allow iteration
-number = input()
+digits = ['zero', 'one', 'two',  'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
-# Loop through each character (digit) in the input string
-for char in number:
-    # Convert the character to integer and use it as index
-    print(digits[int(char)])
+for i in phone_number:
+    if i == "0":
+        print(digits[0])
+    if i == "1":
+        print(digits[1])
+    if i == "2":
+        print(digits[2])
+    if i == "3":
+        print(digits[3])
+    if i == "4":
+        print(digits[4])
+    if i == "5":
+        print(digits[5])
+    if i == "6":
+        print(digits[6])
+    if i == "7":
+        print(digits[7])
+    if i == "8":
+        print(digits[8])
+    if i == "9":
+        print(digits[9])
