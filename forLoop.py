@@ -67,3 +67,20 @@ for i in phone_number:
 # We've stored a time value in the 24-hour format in a variable named hour. Your task is to convert this value to a 12-hour format and print the result.
 hour = int(input())
 print(12 if hour % 12 == 0 else hour % 12)
+
+#--------------------------------------------------------------------------------------------------------
+# Who doesn't want to be rich? So, let's invest some money.
+# If you invest $x$x at an annual interest rate of r%r%, compounded yearly, the value of the investment aa, after yy years will be:
+# a=x×(1+r100)ya=x×(1+100r​)y
+# Let's say you have invested $1000$1000 at the yearly compound interest rate of 5%5%. What will be the value of the investment after 1010 years? Please complete the Python code below and print the answer only.
+# Tip: Watch out for those parentheses—they're key to getting the right result!
+
+x = 1000
+r = 5
+y = 10
+
+a = x * (1 + r / 100) ** y
+print(a)
+
+#--------------------------------------------------------------------------------------------------------
+
