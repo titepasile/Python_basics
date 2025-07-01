@@ -62,3 +62,8 @@ for i in phone_number:
         print(digits[8])
     if i == "9":
         print(digits[9])
+
+#--------------------------------------------------------------------------------------------------------
+# We've stored a time value in the 24-hour format in a variable named hour. Your task is to convert this value to a 12-hour format and print the result.
+hour = int(input())
+print(12 if hour % 12 == 0 else hour % 12)
