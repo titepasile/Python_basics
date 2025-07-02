@@ -1,4 +1,8 @@
 # Python_basics
+## Important links
+For all internal Python modules:
+-  https://docs.python.org/3/py-modindex.html
+-  
 
 ## Operations
 Parentheses > Exponentiation > Multiplication/Division/Integer Division/Modulo > Addition/Subtraction
